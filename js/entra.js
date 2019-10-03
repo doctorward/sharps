@@ -1,6 +1,8 @@
+
 window.onLoad = function() {        
   window.scrollTo(0,1);
 }
+
 
 window.onscroll = function(){
 
