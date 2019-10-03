@@ -5,6 +5,8 @@ html, body {
   line-height: 1.4em;
 }
 
+
+
 body:before {
   content: "";
   display: block;
@@ -21,16 +23,6 @@ body:before {
   background-size: cover;  
 }
 
-body {
-  /*
-  font-family: 'Roboto', sans-serif;
-  background-image: url(../images/greenpoint-boardwalk-iris.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  background-attachment: fixed;  
-  */
-}
 
 .entra-logo {
   position: fixed;
