@@ -5,13 +5,31 @@ html, body {
   line-height: 1.4em;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(../images/greenpoint-boardwalk-iris.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
 body {
+  /*
   font-family: 'Roboto', sans-serif;
   background-image: url(../images/greenpoint-boardwalk-iris.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;  
+  */
 }
 
 .entra-logo {
@@ -20,7 +38,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  z-index: -1;
+ /* z-index: -1; */
 }
 
 header {
