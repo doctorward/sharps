@@ -1,0 +1,86 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/images/greenpoint-boardwalk-iris.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.entra-logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+header {
+  z-index: 1;
+  top: 0;
+  color: #fff;
+  margin-top: 100vh;
+}
+
+article {
+  width: calc(100% - 40px);
+  max-width: 600px;
+  margin: 0 auto;
+  clear: both;
+  min-height: calc(100vh - 40px);
+}
+
+section {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,.8);
+  display: block;
+  float: left;
+  margin-bottom: 2em;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+section .header {
+  background-color: rgba(255,255,255,.8);
+  color: rgba(2,5,2,.8); 
+  padding: 0.25em 0.5em;
+  font-weight: 700;
+  border-top-right-radius: 9px;
+}
+
+section .body {  
+  padding-top: 1em;
+  padding: 1em 0.5em;
+  background-color: rgba(0,0,0,0.17);
+  text-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  width: calc(100% - 1em);
+  float: left;
+}
+
+section a {
+  color: #fff;
+}
+
+section a:hover {
+  text-decoration:none;
+}
+
+section span{
+  float: left;
+  word-wrap: unset;
+}
+section .item {
+}
+section .item::after{
+  content: "  /  ";
+  padding: 0 0.5em;
+}
+
+section .item:last-child::after {
+  content: "";
+  padding: 0;
+}
