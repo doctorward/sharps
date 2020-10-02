@@ -10,10 +10,10 @@ window.onscroll = function(){
   const fromTop = height - (scrollTop*2);  
 
   if (fromTop <= 0) 
-    document.getElementById('entra-logo').style.width = "0%";
+    document.getElementById('sharps-logo').style.width = "0%";
   else  {
     const percent = 100*fromTop/height;      
-    document.getElementById('entra-logo').style.width = percent + "%";
+    document.getElementById('sharps-logo').style.width = percent + "%";
   }  
            
 };
