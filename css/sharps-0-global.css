@@ -15,7 +15,9 @@ body:before {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   z-index: -10;
-  background: url(../images/False-profit-tuesday-night-party-2013-pixels.jpg) no-repeat center center;
+  /* background: url(../images/False-profit-tuesday-night-party-2013-pixels.jpg) no-repeat center center; */
+  background: url(../images/Sharps-on-Sugarcubes-BM2013-forBG2.jpg) no-repeat center center;  
+  background-color: #333;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
