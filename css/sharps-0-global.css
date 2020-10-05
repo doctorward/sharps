@@ -102,3 +102,13 @@ section .item:last-child::after {
   content: "";
   padding: 0;
 }
+
+section > div > div {
+  width: 100%;
+  float: left;
+}
+
+.proceeds {
+  font-size: 0.66em;
+  line-height: 1.5em;
+}
